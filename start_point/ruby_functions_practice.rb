@@ -1,5 +1,6 @@
 
 require 'date'
+# require 'math'
 
 def return_10()
   return 10
@@ -51,4 +52,8 @@ number_to_short_month_name(10)
 
 def volume(length_of_side)
   return length_of_side ** 3
+end
+
+def volume_sphere(radius)
+  return (((4 *  Math::PI) / 3) * (radius ** 3)).round(2)
 end
