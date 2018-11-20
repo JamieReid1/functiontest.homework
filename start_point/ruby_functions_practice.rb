@@ -14,6 +14,10 @@ def multiply(num1, num2)
   return num1 * num2
 end
 
+def divide(num1, num2)
+  return num1 / num2
+end
+
 def length_of_string(test_string)
   test_string.length
 end
