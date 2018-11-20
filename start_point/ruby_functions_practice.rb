@@ -40,3 +40,11 @@ end
 number_to_full_month_name(1)
 number_to_full_month_name(3)
 number_to_full_month_name(9)
+
+def number_to_short_month_name(abrv_month)
+  Date::ABBR_MONTHNAMES[abrv_month]
+end
+
+number_to_short_month_name(1)
+number_to_short_month_name(4)
+number_to_short_month_name(10)
