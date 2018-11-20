@@ -34,5 +34,9 @@ def add_string_as_number (string1, string2)
 end
 
 def number_to_full_month_name(month)
-  return Date::MONTHNAMES[1]
+  return Date::MONTHNAMES[month]
 end
+
+number_to_full_month_name(1)
+number_to_full_month_name(3)
+number_to_full_month_name(9)
