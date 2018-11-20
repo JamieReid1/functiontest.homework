@@ -50,10 +50,14 @@ number_to_short_month_name(1)
 number_to_short_month_name(4)
 number_to_short_month_name(10)
 
-def volume(length_of_side)
+def volume_cube(length_of_side)
   return length_of_side ** 3
 end
 
 def volume_sphere(radius)
   return (((4 *  Math::PI) / 3) * (radius ** 3)).round(2)
+end
+
+def temp_in_celsius(farenheit)
+  return ((farenheit - 32) * 5 / 9).round(2)
 end
